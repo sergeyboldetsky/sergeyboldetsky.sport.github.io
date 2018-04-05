@@ -1,0 +1,4029 @@
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url(../fonts/ProximaNova-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Proxima Nova Normal';
+  src: url(../fonts/ProximaNova-Light.ttf);
+}
+
+/* line 10, F:/maket-rezina/scss/style.scss */
+.header {
+  background-image: url(../img/football.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 15, F:/maket-rezina/scss/style.scss */
+.header-min {
+  max-width: 1530px;
+  margin: 0 auto;
+}
+
+/* line 19, F:/maket-rezina/scss/style.scss */
+.header-min-top {
+  padding-top: 54px;
+  padding-bottom: 309px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 36, F:/maket-rezina/scss/style.scss */
+.header-min-top .top-logo {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 189px;
+  height: 33px;
+}
+
+/* line 43, F:/maket-rezina/scss/style.scss */
+.header-min-top .top-text {
+  color: #ffffff;
+  font-family: "Proxima Nova Normal";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+/* line 53, F:/maket-rezina/scss/style.scss */
+.header-min-text {
+  color: #ffffff;
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 72, F:/maket-rezina/scss/style.scss */
+.header-min-text .h-text {
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+/* line 77, F:/maket-rezina/scss/style.scss */
+.header-min-text .h-text-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-left: 20%;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* line 93, F:/maket-rezina/scss/style.scss */
+.header-min-text .h-text-two::before {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 5px;
+  background-color: #5e42b0;
+  top: 0;
+  left: 20%;
+  -webkit-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  z-index: 1;
+}
+
+/* line 108, F:/maket-rezina/scss/style.scss */
+.header-min-m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+/* line 122, F:/maket-rezina/scss/style.scss */
+.header-min-m-menu .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 134, F:/maket-rezina/scss/style.scss */
+.header-min-m-menu .menu .m-button {
+  max-width: 500px;
+  padding-right: 50px;
+}
+
+/* line 138, F:/maket-rezina/scss/style.scss */
+.header-min-m-menu .menu .m-button .a-button {
+  color: #9071ea;
+  font-family: "Proxima Nova Normal";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
+
+/* line 149, F:/maket-rezina/scss/style.scss */
+.header-min-m-menu .menu .m-button:last-child {
+  padding-right: 0;
+}
+
+/* line 157, F:/maket-rezina/scss/style.scss */
+.header-min-h {
+  visibility: hidden;
+  display: none;
+}
+
+/* line 162, F:/maket-rezina/scss/style.scss */
+.header-min-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 181px;
+  padding-bottom: 110px;
+}
+
+/* line 176, F:/maket-rezina/scss/style.scss */
+.header-min-button .button {
+  text-decoration: none;
+  position: relative;
+}
+
+/* line 180, F:/maket-rezina/scss/style.scss */
+.header-min-button .button .button-text {
+  width: 311px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #5e42b0;
+  border-radius: 100px;
+  padding: 25px 0 25px 109px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 195, F:/maket-rezina/scss/style.scss */
+.header-min-button .button .button-text .b-text {
+  display: block;
+  color: #ffffff;
+  font-family: "Proxima Nova Normal";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+/* line 206, F:/maket-rezina/scss/style.scss */
+.header-min-button .button .button-text .b-text-b {
+  display: block;
+  color: #ffffff;
+  font-family: "Proxima Nova Bold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+/* line 218, F:/maket-rezina/scss/style.scss */
+.header-min-button .button .button-text:before {
+  content: '';
+  width: 36px;
+  height: 39px;
+  background-image: url("../img/play.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 19px;
+  left: 64px;
+}
+
+/* line 230, F:/maket-rezina/scss/style.scss */
+.header-min-button .button .apple:before {
+  content: '';
+  width: 36px;
+  height: 39px;
+  background-image: url("../img/apple.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 19px;
+  left: 64px;
+}
+
+/* line 244, F:/maket-rezina/scss/style.scss */
+.header-min .button-mod {
+  padding-right: 50px;
+}
+
+/* line 252, F:/maket-rezina/scss/style.scss */
+.main-min {
+  margin: 0 auto;
+}
+
+/* line 255, F:/maket-rezina/scss/style.scss */
+.main-min .main-container {
+  position: relative;
+}
+
+/* line 258, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-man {
+  background-image: url("../img/footballer.png");
+  width: 614px;
+  height: 982px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 40px;
+  right: 53.8666666%;
+  z-index: 1;
+}
+
+/* line 270, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 279, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background {
+  background-color: #fff;
+}
+
+/* line 282, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background .cards {
+  max-width: 700px;
+  padding-left: 53.8666666%;
+}
+
+/* line 286, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background .cards span {
+  color: #e7e7e7;
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 112px;
+  padding-bottom: 32px;
+}
+
+/* line 298, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background .cards-tittle {
+  padding-bottom: 31px;
+  padding-top: 62px;
+  color: #c1c1c1;
+  font-family: "Proxima Nova Bold";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+}
+
+/* line 310, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background .cards-tittle::before {
+  content: '01';
+  padding-bottom: 6px;
+  color: #000000;
+  font-family: "Proxima Nova Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  vertical-align: top;
+  border-bottom: 5px solid #5e42b0;
+  border-radius: 2px;
+}
+
+/* line 325, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background .cards .one-tittle::before {
+  content: '02';
+  padding-bottom: 6px;
+  color: #000000;
+  font-family: "Proxima Nova Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  vertical-align: top;
+  border-bottom: 5px solid #5e42b0;
+  border-radius: 2px;
+}
+
+/* line 340, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background .cards .two-tittle::before {
+  content: '03';
+  padding-bottom: 6px;
+  color: #000000;
+  font-family: "Proxima Nova Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  vertical-align: top;
+  border-bottom: 5px solid #efefef;
+  border-radius: 2px;
+}
+
+/* line 354, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background .cards-text {
+  padding-bottom: 62px;
+  color: #000000;
+  font-family: "Proxima Nova Normal";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+/* line 366, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background:nth-child(3) {
+  background-color: #f6f4fa;
+}
+
+/* line 370, F:/maket-rezina/scss/style.scss */
+.main-min .main-container-cards .cards-background:nth-child(4) {
+  background-color: #5e42b0;
+}
+
+/* line 381, F:/maket-rezina/scss/style.scss */
+.main-block-min {
+  margin: 0 auto;
+}
+
+/* line 384, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container {
+  position: relative;
+}
+
+/* line 387, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-man {
+  background-image: url("../img/6-layers.png");
+  min-width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  left: 49.866667%;
+  overflow: hidden;
+  top: -23px;
+  left: 49.866667%;
+}
+
+/* line 400, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* line 410, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background {
+  background-color: #fff;
+}
+
+/* line 413, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards {
+  max-width: 1900px;
+  padding-left: 4.866667%;
+  margin: 0 auto;
+}
+
+/* line 418, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards span {
+  color: #e7e7e7;
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 112px;
+  padding-bottom: 32px;
+  max-width: 700px;
+}
+
+/* line 431, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle {
+  padding-bottom: 31px;
+  padding-top: 62px;
+  color: #c1c1c1;
+  font-family: "Proxima Nova Bold";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  max-width: 700px;
+}
+
+/* line 444, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle::before {
+  content: '01';
+  padding-bottom: 6px;
+  color: #000000;
+  font-family: "Proxima Nova Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  vertical-align: top;
+  border-bottom: 5px solid #5e42b0;
+  border-radius: 2px;
+}
+
+/* line 459, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards .b-one-tittle::before {
+  content: '02';
+  padding-bottom: 6px;
+  color: #000000;
+  font-family: "Proxima Nova Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  vertical-align: top;
+  border-bottom: 5px solid #5e42b0;
+  border-radius: 2px;
+}
+
+/* line 474, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards .b-two-tittle::before {
+  content: '03';
+  padding-bottom: 6px;
+  color: #9173e6;
+  font-family: "Proxima Nova Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  vertical-align: top;
+  border-bottom: 5px solid #efefef;
+  border-radius: 2px;
+}
+
+/* line 488, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards-text {
+  padding-bottom: 62px;
+  color: #000000;
+  font-family: "Proxima Nova Normal";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  max-width: 700px;
+}
+
+/* line 499, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background .b-cards .b-cards-col {
+  color: #fff;
+}
+
+/* line 505, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background:nth-child(3) {
+  background-color: #f6f4fa;
+}
+
+/* line 508, F:/maket-rezina/scss/style.scss */
+.main-block-min .main-block-container-cards .b-cards-background:nth-child(4) {
+  background-color: #0a0e34;
+}
+
+/* line 516, F:/maket-rezina/scss/style.scss */
+.content {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 526, F:/maket-rezina/scss/style.scss */
+.content-cards {
+  width: 50%;
+}
+
+/* line 530, F:/maket-rezina/scss/style.scss */
+.content-cards:nth-child(1) {
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+}
+
+/* line 536, F:/maket-rezina/scss/style.scss */
+.content-cards:nth-child(2) {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+/* line 542, F:/maket-rezina/scss/style.scss */
+.content-cards:nth-child(3) {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+/* line 548, F:/maket-rezina/scss/style.scss */
+.content-cards:nth-child(4) {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+/* line 554, F:/maket-rezina/scss/style.scss */
+.content-cards:nth-child(5) {
+  -webkit-box-ordinal-group: 5;
+  -ms-flex-order: 4;
+  order: 4;
+}
+
+/* line 560, F:/maket-rezina/scss/style.scss */
+.content-cards:nth-child(6) {
+  -webkit-box-ordinal-group: 6;
+  -ms-flex-order: 5;
+  order: 5;
+}
+
+/* line 566, F:/maket-rezina/scss/style.scss */
+.content .cards-image-a {
+  max-width: 100%;
+}
+
+/* line 570, F:/maket-rezina/scss/style.scss */
+.content .cards-image-a:nth-child(3) {
+  background-image: url("../img/img2.png");
+}
+
+/* line 573, F:/maket-rezina/scss/style.scss */
+.content .cards-image-a:nth-child(5) {
+  background-image: url("../img/img3.png");
+}
+
+/* line 577, F:/maket-rezina/scss/style.scss */
+.content .cards-text-a {
+  max-height: 730px;
+  max-width: 960px;
+  padding-left: 13.2291%;
+  padding-right: 8%;
+}
+
+/* line 583, F:/maket-rezina/scss/style.scss */
+.content .cards-text-a-tittle {
+  padding-bottom: 16.3%;
+  padding-top: 35.20507945%;
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+}
+
+/* line 596, F:/maket-rezina/scss/style.scss */
+.content .cards-text-a-text {
+  padding-bottom: 62px;
+  color: #000000;
+  font-family: "Proxima Nova Bold";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.2px;
+  max-width: 700px;
+}
+
+/* line 607, F:/maket-rezina/scss/style.scss */
+.content .cards-text-a-line {
+  width: 22px;
+  height: 5px;
+  background-color: #5e42b0;
+  border-radius: 2px;
+}
+
+/* line 616, F:/maket-rezina/scss/style.scss */
+.footer {
+  background-image: url("../img/ba.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 621, F:/maket-rezina/scss/style.scss */
+.footer .footer-back {
+  background-color: rgba(9, 13, 51, 0.7);
+}
+
+/* line 624, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+/* line 630, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-text {
+  padding-top: 277px;
+  padding-bottom: 163px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 643, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-text-logo {
+  width: 130px;
+  height: 137px;
+  background-image: url("../img/artwork.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 36px;
+}
+
+/* line 652, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-text-name {
+  position: relative;
+}
+
+/* line 655, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-text-name .f-text {
+  position: relative;
+  color: #ffffff;
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  text-transform: uppercase;
+  letter-spacing: 4.96px;
+  z-index: 2;
+}
+
+/* line 667, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-text-name .f-text::before {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 220px;
+  height: 5px;
+  background-color: #5e42b0;
+  top: 68px;
+  left: -27px;
+  -webkit-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  opacity: .99;
+  z-index: -1;
+}
+
+/* line 683, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-text-name .f-text::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 440px;
+  height: 5px;
+  background-color: #5e42b0;
+  top: 68px;
+  left: 282px;
+  -webkit-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  opacity: .99;
+  z-index: -1;
+}
+
+/* line 700, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-text-name .f-text-two {
+  color: #a496ca;
+  font-family: "Proxima Nova Bold";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  padding-top: 18px;
+  z-index: 5;
+}
+
+/* line 713, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 197px;
+}
+
+/* line 726, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-button .f-button {
+  text-decoration: none;
+  position: relative;
+}
+
+/* line 730, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-button .f-button .f-button-text {
+  width: 311px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #5e42b0;
+  border-radius: 100px;
+  padding: 25px 0 25px 109px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 745, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text {
+  display: block;
+  color: #ffffff;
+  font-family: "Proxima Nova Normal";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+/* line 756, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text-f {
+  display: block;
+  color: #ffffff;
+  font-family: "Proxima Nova Bold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+/* line 768, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-button .f-button .f-button-text:before {
+  content: '';
+  width: 36px;
+  height: 39px;
+  background-image: url("../img/play.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 19px;
+  left: 64px;
+}
+
+/* line 780, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min-button .f-button .apple:before {
+  content: '';
+  width: 36px;
+  height: 39px;
+  background-image: url("../img/apple.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 19px;
+  left: 64px;
+}
+
+/* line 794, F:/maket-rezina/scss/style.scss */
+.footer .footer-back .footer-m .footer-min .f-button-mod {
+  padding-right: 50px;
+}
+
+/* line 800, F:/maket-rezina/scss/style.scss */
+.footer .footer-m-bottom {
+  background-color: rgba(9, 13, 51, 0.9);
+}
+
+/* line 803, F:/maket-rezina/scss/style.scss */
+.footer .footer-m-bottom .footer-bottom {
+  max-width: 1800px;
+  padding-top: 54px;
+  padding-bottom: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* line 822, F:/maket-rezina/scss/style.scss */
+.footer .footer-m-bottom .footer-bottom .bottom-logo {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 189px;
+  height: 33px;
+}
+
+/* line 831, F:/maket-rezina/scss/style.scss */
+.footer .footer-m-bottom .footer-bottom .bottom-link a {
+  margin-right: 41px;
+}
+
+/* line 835, F:/maket-rezina/scss/style.scss */
+.footer .footer-m-bottom .footer-bottom .bottom-link a:last-child {
+  margin-right: 0;
+}
+
+/* line 840, F:/maket-rezina/scss/style.scss */
+.footer .footer-m-bottom .footer-bottom .bottom-text {
+  color: #ffffff;
+  font-family: "Proxima Nova Normal";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+@media screen and (max-width: 1600px) {
+  /* line 855, F:/maket-rezina/scss/style.scss */
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  /* line 861, F:/maket-rezina/scss/style.scss */
+  .main-min {
+    margin: 0 auto;
+  }
+  /* line 864, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container {
+    position: relative;
+  }
+  /* line 867, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-man {
+    background-image: url("../img/footballer.png");
+    width: 614px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    right: 53.866667%;
+  }
+  /* line 878, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 887, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background {
+    background-color: #fff;
+  }
+  /* line 890, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards {
+    max-width: 1600px;
+    padding-left: 47.8666666%;
+    padding-right: 40px;
+  }
+  /* line 895, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 112px;
+    padding-bottom: 32px;
+  }
+  /* line 907, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 919, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-tittle::before {
+    content: '01';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 934, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .one-tittle::before {
+    content: '02';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 949, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #efefef;
+    border-radius: 2px;
+  }
+  /* line 963, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Normal";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+  /* line 975, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(3) {
+    background-color: #f6f4fa;
+  }
+  /* line 979, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(4) {
+    background-color: #5e42b0;
+  }
+  /* line 990, F:/maket-rezina/scss/style.scss */
+  .main-block-min {
+    margin: 0 auto;
+  }
+  /* line 993, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container {
+    position: relative;
+  }
+  /* line 996, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-man {
+    background-image: url("../img/6-layers.png");
+    min-width: 62%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    top: -23px;
+    left: 37.866667%;
+    overflow: hidden;
+  }
+  /* line 1008, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  /* line 1018, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background {
+    background-color: #fff;
+  }
+  /* line 1021, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards {
+    max-width: 1600px;
+    padding-left: 4.866667%;
+    margin: 0 auto;
+  }
+  /* line 1026, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 112px;
+    padding-bottom: 32px;
+    max-width: 564px;
+  }
+  /* line 1039, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    max-width: 564px;
+  }
+  /* line 1052, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle::before {
+    content: '01';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 1067, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-one-tittle::before {
+    content: '02';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 1082, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #9173e6;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #efefef;
+    border-radius: 2px;
+  }
+  /* line 1096, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Normal";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+    max-width: 567px;
+  }
+  /* line 1107, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-cards-col {
+    color: #fff;
+  }
+  /* line 1113, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background:nth-child(3) {
+    background-color: #f6f4fa;
+  }
+  /* line 1116, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background:nth-child(4) {
+    background-color: #0a0e34;
+  }
+  /* line 1124, F:/maket-rezina/scss/style.scss */
+  .content {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  /* line 1136, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(1) {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  /* line 1142, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  /* line 1148, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  /* line 1154, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  /* line 1160, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  /* line 1166, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(6) {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  /* line 1172, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a {
+    background-image: url("../img/img1.png");
+  }
+  /* line 1176, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(3) {
+    background-image: url("../img/img2.png");
+  }
+  /* line 1179, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(5) {
+    background-image: url("../img/img3.png");
+  }
+  /* line 1183, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a {
+    max-height: 730px;
+    max-width: 960px;
+    padding-left: 13.2291%;
+  }
+  /* line 1188, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-tittle {
+    padding-bottom: 16.3%;
+    padding-top: 25.20507945%;
+    opacity: 0.4;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 1201, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    max-width: 700px;
+  }
+  /* line 1212, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-line {
+    width: 22px;
+    height: 5px;
+    background-color: #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 1221, F:/maket-rezina/scss/style.scss */
+  .footer {
+    background-image: url("../img/ba.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 1226, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back {
+    background-color: rgba(9, 13, 51, 0.7);
+  }
+  /* line 1229, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  /* line 1235, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text {
+    padding-top: 277px;
+    padding-bottom: 163px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 1248, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-logo {
+    width: 130px;
+    height: 137px;
+    background-image: url("../img/artwork.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 36px;
+  }
+  /* line 1257, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name {
+    position: relative;
+  }
+  /* line 1260, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text {
+    position: relative;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    z-index: 2;
+  }
+  /* line 1272, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 5px;
+    background-color: #5e42b0;
+    top: 68px;
+    left: -27px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 1288, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 440px;
+    height: 5px;
+    background-color: #5e42b0;
+    top: 68px;
+    left: 282px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 1305, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text-two {
+    color: #a496ca;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    padding-top: 18px;
+    z-index: 5;
+  }
+  /* line 1318, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 197px;
+  }
+  /* line 1331, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button {
+    text-decoration: none;
+    position: relative;
+  }
+  /* line 1336, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text {
+    width: 311px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding: 25px 0 25px 109px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 1351, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 1363, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text-f {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 1375, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text:before {
+    content: '';
+    width: 36px;
+    height: 39px;
+    background-image: url("../img/play.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 19px;
+    left: 64px;
+  }
+  /* line 1387, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .apple:before {
+    content: '';
+    width: 36px;
+    height: 39px;
+    background-image: url("../img/apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 19px;
+    left: 64px;
+  }
+  /* line 1401, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min .f-button-mod {
+    padding-right: 50px;
+  }
+  /* line 1408, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom {
+    background-color: rgba(9, 13, 51, 0.9);
+  }
+  /* line 1411, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom {
+    max-width: 1800px;
+    padding-top: 54px;
+    padding-bottom: 69px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  /* line 1433, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 189px;
+    height: 33px;
+  }
+  /* line 1442, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a {
+    margin-right: 41px;
+  }
+  /* line 1446, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a:last-child {
+    margin-right: 0;
+  }
+  /* line 1451, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-text {
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  /* line 1468, F:/maket-rezina/scss/style.scss */
+  .content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 1479, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(1) {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  /* line 1485, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  /* line 1491, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  /* line 1497, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  /* line 1503, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  /* line 1509, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(6) {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  /* line 1515, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a {
+    background-image: url("../img/img1.png");
+  }
+  /* line 1519, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(3) {
+    background-image: url("../img/img2.png");
+  }
+  /* line 1522, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(5) {
+    background-image: url("../img/img3.png");
+  }
+  /* line 1527, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a {
+    max-height: 730px;
+    max-width: 960px;
+    padding-left: 10.2291%;
+    padding-right: 8%;
+  }
+  /* line 1533, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-tittle {
+    padding-bottom: 6.3%;
+    padding-top: 15.20507945%;
+    opacity: 0.4;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 1546, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-text {
+    padding-bottom: 6.3%;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    max-width: 700px;
+  }
+  /* line 1557, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-line {
+    width: 22px;
+    height: 5px;
+    background-color: #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 1568, F:/maket-rezina/scss/style.scss */
+  .footer-min-text {
+    padding-top: 128px;
+    padding-bottom: 198px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 1583, F:/maket-rezina/scss/style.scss */
+  .footer-min-text-logo {
+    width: 130px;
+    height: 137px;
+    background-image: url("../img/artwork.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 36px;
+    margin-bottom: 82px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1598, F:/maket-rezina/scss/style.scss */
+  .header {
+    max-width: 768px;
+  }
+  /* line 1601, F:/maket-rezina/scss/style.scss */
+  .header-min {
+    max-width: 727px;
+    margin: 0 auto;
+  }
+  /* line 1605, F:/maket-rezina/scss/style.scss */
+  .header-min-top {
+    padding-top: 54px;
+    padding-bottom: 194px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /* line 1620, F:/maket-rezina/scss/style.scss */
+  .header-min-top .top-logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 189px;
+    height: 33px;
+  }
+  /* line 1627, F:/maket-rezina/scss/style.scss */
+  .header-min-top .top-text {
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 1637, F:/maket-rezina/scss/style.scss */
+  .header-min-text {
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /* line 1656, F:/maket-rezina/scss/style.scss */
+  .header-min-text .h-text-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  /* line 1669, F:/maket-rezina/scss/style.scss */
+  .header-min-text .h-text-two::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 5px;
+    background-color: #5e42b0;
+    top: 0;
+    left: 20%;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    z-index: 1;
+  }
+  /* line 1684, F:/maket-rezina/scss/style.scss */
+  .header-min-m {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 184px;
+  }
+  /* line 1701, F:/maket-rezina/scss/style.scss */
+  .header-min-m-menu .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /* line 1713, F:/maket-rezina/scss/style.scss */
+  .header-min-m-menu .menu .m-button {
+    max-width: 500px;
+    padding-right: 50px;
+  }
+  /* line 1718, F:/maket-rezina/scss/style.scss */
+  .header-min-m-menu .menu .m-button .a-button {
+    color: #9071ea;
+    font-family: "Proxima Nova Normal";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+  }
+  /* line 1729, F:/maket-rezina/scss/style.scss */
+  .header-min-m-menu .menu .m-button:last-child {
+    padding-right: 0;
+  }
+  /* line 1737, F:/maket-rezina/scss/style.scss */
+  .header-min-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 119px;
+    padding-bottom: 94px;
+  }
+  /* line 1750, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button {
+    text-decoration: none;
+    position: relative;
+  }
+  /* line 1755, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text {
+    width: 311px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding: 25px 0 25px 109px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 1770, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text .b-text {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 1782, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text .b-text-b {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 1794, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text:before {
+    content: '';
+    width: 36px;
+    height: 39px;
+    background-image: url("../img/apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 19px;
+    left: 64px;
+  }
+  /* line 1808, F:/maket-rezina/scss/style.scss */
+  .header-min .button-mod {
+    padding-right: 50px;
+  }
+  /* line 1816, F:/maket-rezina/scss/style.scss */
+  .main-min {
+    margin: 0 auto;
+  }
+  /* line 1819, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container {
+    position: relative;
+  }
+  /* line 1822, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-man {
+    background-image: url("../img/fball.png");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 42px;
+    position: absolute;
+    top: 40px;
+    right: 32.866667%;
+  }
+  /* line 1832, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 1844, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background {
+    background-color: #fff;
+  }
+  /* line 1847, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards {
+    max-width: 700px;
+    padding-left: 47.8666666%;
+    padding-right: 40px;
+  }
+  /* line 1852, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 112px;
+    padding-bottom: 32px;
+  }
+  /* line 1864, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 1876, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-tittle::before {
+    content: '01';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 1891, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .one-tittle::before {
+    content: '02';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 1906, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #efefef;
+    border-radius: 2px;
+  }
+  /* line 1920, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Normal";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+  /* line 1932, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(3) {
+    background-color: #f6f4fa;
+  }
+  /* line 1936, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(4) {
+    background-color: #5e42b0;
+  }
+  /* line 1947, F:/maket-rezina/scss/style.scss */
+  .main-block-min {
+    margin: 0 auto;
+  }
+  /* line 1950, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container {
+    position: relative;
+  }
+  /* line 1953, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-man {
+    overflow: hidden;
+    background-image: url("../img/4-layers.png");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 60px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 37.866667%;
+  }
+  /* line 1965, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  /* line 1978, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background {
+    background-color: #fff;
+  }
+  /* line 1980, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards {
+    max-width: 768px;
+    padding-left: 4.866667%;
+    margin: 0 auto;
+  }
+  /* line 1985, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 112px;
+    padding-bottom: 32px;
+    max-width: 368px;
+  }
+  /* line 1998, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    max-width: 368px;
+  }
+  /* line 2011, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle::before {
+    content: '01';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 2026, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-one-tittle::before {
+    content: '02';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 2041, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #9173e6;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #efefef;
+    border-radius: 2px;
+  }
+  /* line 2055, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Normal";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+    max-width: 368px;
+  }
+  /* line 2066, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-cards-col {
+    color: #fff;
+  }
+  /* line 2074, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background:nth-child(3) {
+    background-color: #f6f4fa;
+  }
+  /* line 2078, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background:nth-child(4) {
+    background-color: #0a0e34;
+  }
+  /* line 2087, F:/maket-rezina/scss/style.scss */
+  .content {
+    max-width: 768px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 2098, F:/maket-rezina/scss/style.scss */
+  .content-cards {
+    width: 100%;
+  }
+  /* line 2102, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(1) {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  /* line 2108, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  /* line 2114, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(3) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  /* line 2120, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(4) {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  /* line 2126, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  /* line 2132, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(6) {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  /* line 2138, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a {
+    background-image: url("../img/img1.png");
+  }
+  /* line 2142, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(3) {
+    background-image: url("../img/img2.png");
+  }
+  /* line 2145, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(5) {
+    background-image: url("../img/img3.png");
+  }
+  /* line 2150, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a {
+    max-width: 768px;
+    padding-left: 34px;
+    padding-bottom: 104px;
+  }
+  /* line 2155, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-tittle {
+    padding-bottom: 36px;
+    padding-top: 25.81%;
+    opacity: 0.4;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 2168, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-text {
+    padding-bottom: 33px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    max-width: 700px;
+  }
+  /* line 2179, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-line {
+    width: 22px;
+    height: 5px;
+    background-color: #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 2189, F:/maket-rezina/scss/style.scss */
+  .footer {
+    background-image: url("../img/ba.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 2195, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back {
+    background-color: rgba(9, 13, 51, 0.7);
+  }
+  /* line 2198, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  /* line 2205, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text {
+    padding-top: 128px;
+    padding-bottom: 198px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 2220, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-logo {
+    width: 130px;
+    height: 137px;
+    background-image: url("../img/artwork.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 36px;
+    margin-bottom: 82px;
+  }
+  /* line 2230, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name {
+    position: relative;
+    text-align: center;
+  }
+  /* line 2234, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text {
+    position: relative;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    z-index: 2;
+  }
+  /* line 2246, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 5px;
+    background-color: #5e42b0;
+    top: 68px;
+    left: -27px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 2262, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 440px;
+    height: 5px;
+    background-color: #5e42b0;
+    top: 68px;
+    left: 282px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 2279, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text-two {
+    color: #a496ca;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    padding-top: 18px;
+    z-index: 5;
+  }
+  /* line 2292, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 197px;
+  }
+  /* line 2305, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button {
+    text-decoration: none;
+    position: relative;
+  }
+  /* line 2310, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text {
+    width: 311px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding: 25px 0 25px 109px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 2325, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 2337, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text-f {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 2349, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text:before {
+    content: '';
+    width: 36px;
+    height: 39px;
+    background-image: url("../img/apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 19px;
+    left: 64px;
+  }
+  /* line 2363, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min .f-button-mod {
+    padding-right: 50px;
+  }
+  /* line 2370, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom {
+    background-color: rgba(9, 13, 51, 0.9);
+  }
+  /* line 2373, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom {
+    max-width: 768px;
+    padding-top: 54px;
+    padding-bottom: 69px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 2389, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-logo {
+    visibility: hidden;
+    position: absolute;
+  }
+  /* line 2395, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a {
+    margin-right: 41px;
+  }
+  /* line 2399, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a:last-child {
+    margin-right: 0;
+  }
+  /* line 2404, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-text {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  /* line 2415, F:/maket-rezina/scss/style.scss */
+  .header {
+    max-width: 672px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 2420, F:/maket-rezina/scss/style.scss */
+  .header-min {
+    max-width: 672px;
+    margin: 0 auto;
+  }
+  /* line 2424, F:/maket-rezina/scss/style.scss */
+  .header-min-top {
+    padding-top: 54px;
+    padding-bottom: 194px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 2434, F:/maket-rezina/scss/style.scss */
+  .header-min-top .top-logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 189px;
+    height: 33px;
+  }
+  /* line 2441, F:/maket-rezina/scss/style.scss */
+  .header-min-top .top-text {
+    visibility: hidden;
+    display: none;
+  }
+  /* line 2446, F:/maket-rezina/scss/style.scss */
+  .header-min-text {
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /* line 2465, F:/maket-rezina/scss/style.scss */
+  .header-min-text .h-text-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-top: 28px;
+    padding-bottom: 118px;
+  }
+  /* line 2482, F:/maket-rezina/scss/style.scss */
+  .header-min-text .h-text-two::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 5px;
+    background-color: #5e42b0;
+    top: 14px;
+    left: 13%;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    z-index: 1;
+  }
+  /* line 2499, F:/maket-rezina/scss/style.scss */
+  .header-min-m {
+    visibility: hidden;
+    display: none;
+  }
+  /* line 2503, F:/maket-rezina/scss/style.scss */
+  .header-min-h {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 45px;
+    visibility: visible;
+    position: relative;
+  }
+  /* line 2519, F:/maket-rezina/scss/style.scss */
+  .header-min-h .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  /* line 2533, F:/maket-rezina/scss/style.scss */
+  .header-min-h .menu .m-button {
+    max-width: 248px;
+    padding-right: 33px;
+  }
+  /* line 2537, F:/maket-rezina/scss/style.scss */
+  .header-min-h .menu .m-button .a-button {
+    color: #9071ea;
+    font-family: "Proxima Nova Normal";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+  }
+  /* line 2553, F:/maket-rezina/scss/style.scss */
+  .header-min-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 45px;
+  }
+  /* line 2566, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button {
+    text-decoration: none;
+    position: relative;
+  }
+  /* line 2571, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text {
+    width: 142px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding: 10px 0 10px 44px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 2586, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text .b-text {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 2598, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text .b-text-b {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 2611, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---google-play.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 2622, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .apple:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 2637, F:/maket-rezina/scss/style.scss */
+  .header-min .button-mod {
+    padding-right: 8px;
+  }
+  /* line 2645, F:/maket-rezina/scss/style.scss */
+  .main-min {
+    margin: 0 auto;
+  }
+  /* line 2649, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container {
+    position: relative;
+  }
+  /* line 2652, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-man {
+    visibility: hidden;
+  }
+  /* line 2658, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 2670, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-hiiden {
+    visibility: hidden;
+    position: absolute;
+  }
+  /* line 2675, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background {
+    background-color: #fff;
+  }
+  /* line 2678, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards {
+    max-width: 672px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  /* line 2686, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 19px;
+  }
+  /* line 2698, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .main-container-man-baseball {
+    background-image: url("../img/min-fb.png");
+    width: 100%;
+    height: 281px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    bottom: -55px;
+  }
+  /* line 2710, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 2723, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .one-tittle::before {
+    content: '02';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 4px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 2738, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 4px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 2752, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Normal";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
+  /* line 2764, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(3) {
+    background-color: #f6f4fa;
+  }
+  /* line 2768, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(4) {
+    background-color: #5e42b0;
+  }
+  /* line 2779, F:/maket-rezina/scss/style.scss */
+  .main-block-min {
+    margin: 0 auto;
+  }
+  /* line 2783, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container {
+    position: relative;
+  }
+  /* line 2786, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-man {
+    visibility: hidden;
+    display: none;
+  }
+  /* line 2792, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  /* line 2805, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .cards-hiiden {
+    visibility: hidden;
+    display: none;
+  }
+  /* line 2810, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background {
+    background-color: #fff;
+  }
+  /* line 2812, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards {
+    max-width: 672px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  /* line 2818, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 0;
+    max-width: 368px;
+  }
+  /* line 2831, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .main-block-container-foot {
+    background-image: url("../img/basball.png");
+    width: 100%;
+    height: 281px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    bottom: -55px;
+  }
+  /* line 2844, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    max-width: 368px;
+  }
+  /* line 2858, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 2872, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+    max-width: 568px;
+  }
+  /* line 2883, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-cards-col {
+    color: #000000;
+  }
+  /* line 2891, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background:nth-child(4) {
+    background-color: #f6f4fa;
+  }
+  /* line 2900, F:/maket-rezina/scss/style.scss */
+  .content {
+    max-width: 768px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 2911, F:/maket-rezina/scss/style.scss */
+  .content-cards {
+    width: 100%;
+  }
+  /* line 2915, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(1) {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  /* line 2921, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  /* line 2927, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(3) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  /* line 2933, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(4) {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  /* line 2939, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  /* line 2945, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(6) {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  /* line 2951, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a {
+    background-image: url("../img/img1.png");
+  }
+  /* line 2955, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(3) {
+    background-image: url("../img/img2.png");
+  }
+  /* line 2958, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(5) {
+    background-image: url("../img/img3.png");
+  }
+  /* line 2963, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a {
+    max-width: 320px;
+    padding-left: 19px;
+    padding-bottom: 51px;
+  }
+  /* line 2968, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-tittle {
+    padding-bottom: 23px;
+    padding-top: 35px;
+    opacity: 0.4;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 2981, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-text {
+    padding-bottom: 23px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    max-width: 700px;
+  }
+  /* line 2992, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-line {
+    width: 22px;
+    height: 5px;
+    background-color: #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 3002, F:/maket-rezina/scss/style.scss */
+  .footer {
+    background-image: url("../img/ba.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 3008, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back {
+    background-color: rgba(9, 13, 51, 0.7);
+  }
+  /* line 3011, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  /* line 3018, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text {
+    padding-top: 128px;
+    padding-bottom: 198px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 3036, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-logo {
+    width: 73px;
+    height: 78px;
+    background-image: url("../img/art.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  /* line 3046, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name {
+    position: relative;
+    text-align: center;
+  }
+  /* line 3050, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text {
+    position: relative;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    z-index: 2;
+    padding-top: 57px;
+  }
+  /* line 3063, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 4px;
+    background-color: #5e42b0;
+    top: 80px;
+    left: 80px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 3079, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #5e42b0;
+    top: 78px;
+    left: -10px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 3096, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text-two {
+    color: #a496ca;
+    font-family: "Proxima Nova Bold";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding-top: 13px;
+    z-index: 5;
+  }
+  /* line 3111, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 127px;
+  }
+  /* line 3124, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button {
+    text-decoration: none;
+    position: relative;
+  }
+  /* line 3129, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text {
+    width: 142px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding: 10px 0 10px 44px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 3147, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 3159, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text-f {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 3172, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---google-play.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 3184, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .apple:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 3200, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min .f-button-mod {
+    padding-right: 8px;
+  }
+  /* line 3206, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom {
+    background-color: rgba(9, 13, 51, 0.9);
+  }
+  /* line 3209, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom {
+    max-width: 320px;
+    padding-top: 19px;
+    padding-bottom: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 3225, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-logo {
+    visibility: hidden;
+    position: absolute;
+  }
+  /* line 3231, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a {
+    margin-right: 41px;
+  }
+  /* line 3235, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a:last-child {
+    margin-right: 0;
+  }
+  /* line 3240, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-text {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 3253, F:/maket-rezina/scss/style.scss */
+  .header {
+    max-width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 3260, F:/maket-rezina/scss/style.scss */
+  .header-min {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  /* line 3264, F:/maket-rezina/scss/style.scss */
+  .header-min-top {
+    padding-top: 54px;
+    padding-bottom: 194px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 3275, F:/maket-rezina/scss/style.scss */
+  .header-min-top .top-logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 189px;
+    height: 33px;
+  }
+  /* line 3282, F:/maket-rezina/scss/style.scss */
+  .header-min-top .top-text {
+    visibility: hidden;
+    display: none;
+  }
+  /* line 3287, F:/maket-rezina/scss/style.scss */
+  .header-min-text {
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /* line 3306, F:/maket-rezina/scss/style.scss */
+  .header-min-text .h-text-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-top: 28px;
+    padding-bottom: 118px;
+  }
+  /* line 3322, F:/maket-rezina/scss/style.scss */
+  .header-min-text .h-text-two::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 5px;
+    background-color: #5e42b0;
+    top: 14px;
+    left: -7%;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    z-index: 1;
+  }
+  /* line 3339, F:/maket-rezina/scss/style.scss */
+  .header-min-m {
+    visibility: hidden;
+    display: none;
+  }
+  /* line 3343, F:/maket-rezina/scss/style.scss */
+  .header-min-h {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 45px;
+    visibility: visible;
+    position: relative;
+  }
+  /* line 3359, F:/maket-rezina/scss/style.scss */
+  .header-min-h .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  /* line 3373, F:/maket-rezina/scss/style.scss */
+  .header-min-h .menu .m-button {
+    max-width: 248px;
+    padding-right: 33px;
+  }
+  /* line 3377, F:/maket-rezina/scss/style.scss */
+  .header-min-h .menu .m-button .a-button {
+    color: #9071ea;
+    font-family: "Proxima Nova Normal";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+  }
+  /* line 3389, F:/maket-rezina/scss/style.scss */
+  .header-min-h .menu .m-button:nth-child(3) {
+    padding-right: 0;
+  }
+  /* line 3397, F:/maket-rezina/scss/style.scss */
+  .header-min-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 45px;
+  }
+  /* line 3410, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button {
+    text-decoration: none;
+    position: relative;
+  }
+  /* line 3415, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text {
+    width: 142px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding: 10px 0 10px 44px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 3430, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text .b-text {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 3442, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text .b-text-b {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 3455, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .button-text:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---google-play.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 3466, F:/maket-rezina/scss/style.scss */
+  .header-min-button .button .apple:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 3481, F:/maket-rezina/scss/style.scss */
+  .header-min .button-mod {
+    padding-right: 8px;
+  }
+  /* line 3489, F:/maket-rezina/scss/style.scss */
+  .main-min {
+    margin: 0 auto;
+  }
+  /* line 3493, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container {
+    position: relative;
+  }
+  /* line 3496, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-man {
+    visibility: hidden;
+  }
+  /* line 3502, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+  }
+  /* line 3517, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-hiiden {
+    visibility: hidden;
+    position: absolute;
+  }
+  /* line 3522, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background {
+    background-color: #fff;
+  }
+  /* line 3524, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards {
+    max-width: 320px;
+    padding-left: 19px;
+    padding-right: 19px;
+    position: relative;
+  }
+  /* line 3530, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 19px;
+  }
+  /* line 3542, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .main-container-man-baseball {
+    background-image: url("../img/min-fb.png");
+    width: 100%;
+    height: 281px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    bottom: -55px;
+  }
+  /* line 3554, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 3567, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .one-tittle::before {
+    content: '02';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 4px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 3582, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards .two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 4px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 3596, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background .cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Normal";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
+  /* line 3609, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(3) {
+    background-color: #f6f4fa;
+  }
+  /* line 3613, F:/maket-rezina/scss/style.scss */
+  .main-min .main-container-cards .cards-background:nth-child(4) {
+    background-color: #5e42b0;
+  }
+  /* line 3630, F:/maket-rezina/scss/style.scss */
+  .main-block-min {
+    margin: 0 auto;
+  }
+  /* line 3634, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container {
+    position: relative;
+  }
+  /* line 3637, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-man {
+    visibility: hidden;
+    position: absolute;
+  }
+  /* line 3643, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  /* line 3656, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .cards-hiiden {
+    visibility: hidden;
+    position: absolute;
+  }
+  /* line 3661, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background {
+    background-color: #fff;
+  }
+  /* line 3663, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards {
+    max-width: 320px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /* line 3669, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards span {
+    color: #e7e7e7;
+    font-family: "Proxima Nova Bold";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 0;
+    max-width: 368px;
+  }
+  /* line 3682, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .main-block-container-foot {
+    background-image: url("../img/basball.png");
+    width: 100%;
+    height: 281px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    bottom: -55px;
+  }
+  /* line 3695, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-tittle {
+    padding-bottom: 31px;
+    padding-top: 62px;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    max-width: 368px;
+  }
+  /* line 3709, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-two-tittle::before {
+    content: '03';
+    padding-bottom: 6px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    vertical-align: top;
+    border-bottom: 5px solid #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 3723, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards-text {
+    padding-bottom: 62px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+    max-width: 368px;
+  }
+  /* line 3736, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background .b-cards .b-cards-col {
+    color: #000000;
+  }
+  /* line 3744, F:/maket-rezina/scss/style.scss */
+  .main-block-min .main-block-container-cards .b-cards-background:nth-child(4) {
+    background-color: #f6f4fa;
+  }
+  /* line 3754, F:/maket-rezina/scss/style.scss */
+  .content {
+    max-width: 768px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 3765, F:/maket-rezina/scss/style.scss */
+  .content-cards {
+    width: 100%;
+  }
+  /* line 3769, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(1) {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  /* line 3775, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  /* line 3781, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(3) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  /* line 3787, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(4) {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  /* line 3793, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  /* line 3799, F:/maket-rezina/scss/style.scss */
+  .content-cards:nth-child(6) {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  /* line 3805, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a {
+    background-image: url("../img/img1.png");
+  }
+  /* line 3809, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(3) {
+    background-image: url("../img/img2.png");
+  }
+  /* line 3812, F:/maket-rezina/scss/style.scss */
+  .content .cards-image-a:nth-child(5) {
+    background-image: url("../img/img3.png");
+  }
+  /* line 3817, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a {
+    max-width: 320px;
+    padding-left: 19px;
+    padding-bottom: 51px;
+  }
+  /* line 3822, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-tittle {
+    padding-bottom: 23px;
+    padding-top: 35px;
+    opacity: 0.4;
+    color: #c1c1c1;
+    font-family: "Proxima Nova Bold";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+  /* line 3835, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-text {
+    padding-bottom: 23px;
+    color: #000000;
+    font-family: "Proxima Nova Bold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    max-width: 700px;
+  }
+  /* line 3846, F:/maket-rezina/scss/style.scss */
+  .content .cards-text-a-line {
+    width: 22px;
+    height: 5px;
+    background-color: #5e42b0;
+    border-radius: 2px;
+  }
+  /* line 3856, F:/maket-rezina/scss/style.scss */
+  .footer {
+    background-image: url("../img/ba.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 3862, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back {
+    background-color: rgba(9, 13, 51, 0.7);
+  }
+  /* line 3865, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  /* line 3872, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text {
+    padding-top: 128px;
+    padding-bottom: 198px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 3890, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-logo {
+    width: 73px;
+    height: 78px;
+    background-image: url("../img/art.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  /* line 3900, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name {
+    position: relative;
+    text-align: center;
+  }
+  /* line 3904, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text {
+    position: relative;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    z-index: 2;
+    padding-top: 57px;
+  }
+  /* line 3917, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 4px;
+    background-color: #5e42b0;
+    top: 80px;
+    left: 80px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 3933, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #5e42b0;
+    top: 78px;
+    left: -10px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    opacity: .99;
+    z-index: -1;
+  }
+  /* line 3950, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-text-name .f-text-two {
+    color: #a496ca;
+    font-family: "Proxima Nova Bold";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding-top: 13px;
+    z-index: 5;
+  }
+  /* line 3965, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 127px;
+  }
+  /* line 3978, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button {
+    text-decoration: none;
+    position: relative;
+  }
+  /* line 3983, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text {
+    width: 142px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding: 10px 0 10px 44px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 4001, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Normal";
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 4013, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text .f-text-f {
+    display: block;
+    color: #ffffff;
+    font-family: "Proxima Nova Bold";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  /* line 4026, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .f-button-text:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---google-play.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 4038, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min-button .f-button .apple:before {
+    content: '';
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/icon---apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  /* line 4054, F:/maket-rezina/scss/style.scss */
+  .footer .footer-back .footer-m .footer-min .f-button-mod {
+    padding-right: 8px;
+  }
+  /* line 4060, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom {
+    background-color: rgba(9, 13, 51, 0.9);
+  }
+  /* line 4063, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom {
+    max-width: 320px;
+    padding-top: 19px;
+    padding-bottom: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* line 4079, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-logo {
+    visibility: hidden;
+    position: absolute;
+  }
+  /* line 4085, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a {
+    margin-right: 41px;
+  }
+  /* line 4089, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-link a:last-child {
+    margin-right: 0;
+  }
+  /* line 4094, F:/maket-rezina/scss/style.scss */
+  .footer .footer-m-bottom .footer-bottom .bottom-text {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
